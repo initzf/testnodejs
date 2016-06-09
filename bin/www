@@ -1,0 +1,25 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+
+/*
+var classs = require('./classs');
+classs.insert([1,2,3,4],0);*/
+
+
+var pet  = {
+    name : '...',
+    speak:function (say) {
+        console.log(say+"---"+this.name)
+    }
+}
+
+var dog = {
+    name : '111'
+}
+
+//pet.speak.call(dog,"zxc")
+
+pet.speak("zzzz")
